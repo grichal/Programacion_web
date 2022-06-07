@@ -26,4 +26,6 @@ igualar.addEventListener('click', function(){
     histo.addEventListener('dblclick',()=>{
         histo.style.textDecoration = "line-through";
     })
-})
+        localStorage.setItem("operacion", JSON.stringify(histo.innerHTML));
+    }    
+)
